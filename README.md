@@ -59,7 +59,7 @@ The module uses command line tools for gathering the network information:
 
 * airport on Mac OS-X: `airport -s`
 * netsh on Windows: `netsh wlan show networks mode=Bssid`
-* iwlist on Linux: `iwlist scan`
+* iwlist on Linux: `sudo iwlist scan` (user running script must be sudoer)
 
 
 Unfortunately, Mac OS-X and Windows use the system language for the output which requires a quite
